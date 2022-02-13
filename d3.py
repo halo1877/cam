@@ -60,7 +60,7 @@ ____       _       _
 '''
 print(logo)
 def dwbara():
-        chs=raw_input("halbzhera : ")
+        chs=input("halbzhera : ")
         if chs=='1':
                 wget.download("https://raw.githubusercontent.com/malatool/idfacbook.py/main/idfacbook.py")
                 os.system("python2 idfacbook.py")
